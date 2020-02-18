@@ -84,7 +84,7 @@ func checkName(name string) bool{
 		return false
 	}
 
-	if name[:1] != "H" && name[1:] != "Protagonist"{
+	if name[:1] != "H" || name[1:] != "Protagonist"{
 		return false
 	}
 	return true
